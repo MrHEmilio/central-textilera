@@ -1,0 +1,92 @@
+.container-directioncard {
+  border: 1px solid #efefef;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.container-directioncard img {
+  width: 29.56px;
+  height: 34px;
+}
+
+.img-directioncard {
+  margin: 1rem;
+}
+
+.body-directioncard {
+  padding: 1rem;
+  flex: 1;
+}
+
+.body-directioncard p {
+  color: #898989;
+  font-size: 11px;
+}
+
+.actions-directioncard {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.editicon-directioncard {
+  @apply bg-yellow-500;
+  color: white;
+  font-size: 20px;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.deleteicon-directioncard {
+  @apply bg-red-600;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.container-buttonaddnewdirection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+  .container-directioncard {
+    padding: 0.5rem 0;
+  }
+
+  .img-directioncard {
+    margin: 1rem 0.5rem;
+  }
+
+  .actions-directioncard {
+    padding: 1rem 0.5rem;
+
+    align-items: center;
+  }
+
+  .body-directioncard {
+    padding: 1rem 0;
+    flex: 1;
+  }
+
+  .body-directioncard p {
+    font-size: 10px;
+  }
+
+  .body-directioncard h1 {
+    font-size: 12px;
+  }
+
+  .container-buttonaddnewdirection {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .buttonaddnewdirection {
+    width: 250px !important;
+  }
+}

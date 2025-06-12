@@ -1,0 +1,56 @@
+.save-container {
+  @apply flex w-full justify-center;
+  background-image: url('../public/img/savePay.png');
+  height: 31.875rem;
+}
+
+.icon-text {
+  @apply text-center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.save-icon {
+  width: 240px;
+  height: 240px;
+  margin-right: 14rem;
+}
+
+.col-pay {
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.ship-icon {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .save-container {
+    padding: 20px;
+  }
+
+  .save-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+  }
+
+  .icon-text {
+    @apply text-center;
+    font-size: 15px;
+  }
+
+  .col-pay {
+    margin: 0;
+    padding-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .ship-icon {
+    margin-top: -45px;
+  }
+}

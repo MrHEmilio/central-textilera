@@ -1,0 +1,7 @@
+@layer components {
+  .resume-section {
+    @apply border-b-2
+    border-b-gray-300
+    p-3;
+  }
+}

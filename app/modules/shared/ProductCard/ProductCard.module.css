@@ -1,0 +1,29 @@
+.image_product {
+  max-height: 12rem !important;
+  aspect-ratio: 0.5;
+  margin: 0 auto;
+}
+
+.product_card {
+  padding: 3rem 0 1rem 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* aspect-ratio: 1; */
+  max-width: inherit !important;
+}
+
+.ant_skeleton_image {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+}
+
+.product_card:hover .child {
+  --tw-scale-x: 1.5 !important;
+  --tw-scale-y: 1.5 !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}

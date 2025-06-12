@@ -1,0 +1,35 @@
+.container-newletters {
+  padding-top: 2rem;
+  width: 411px;
+}
+
+.input-newletters {
+  border: solid 1px white;
+  border-radius: 1rem;
+  padding: 1rem 40px 1rem 1rem;
+  background: transparent;
+  height: 50px;
+  color: white;
+}
+
+.input-newletters:hover {
+  border: solid 1px white;
+}
+
+.input-newletters:focus {
+  border: solid 1px white;
+}
+
+.input-newletters::placeholder {
+  color: white;
+}
+
+.button-newletters {
+  height: 50px;
+  margin-left: -50px;
+  border: 0;
+  border-radius: 0 1rem 1rem 0;
+  background-color: white;
+  font-weight: 'bold';
+  color: #2699fb;
+}

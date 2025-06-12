@@ -1,0 +1,41 @@
+.container-itemcounter {
+  margin-top: 0rem;
+}
+
+.input-itemcounter {
+  width: 70px;
+  text-align: center;
+  height: 32px;
+  border-top: 1px solid #d7dbdb;
+  border-bottom: 1px solid #d7dbdb;
+}
+
+.buttonleft-itemcounter {
+  height: 32px;
+  margin-right: -2px;
+  border-radius: 13px 0 0 13px;
+  font-weight: 600;
+  width: 32px;
+  padding: 0px 8px;
+}
+
+.buttonright-itemcounter {
+  height: 32px;
+  width: 32px;
+  margin-left: -2px;
+  border-radius: 0 13px 13px 0;
+  font-weight: 600;
+  padding: 0px 8px;
+}
+
+@media screen and (max-width: 1030px) {
+  .input-itemcounter {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container-itemcounter {
+    margin-top: 1rem;
+  }
+}

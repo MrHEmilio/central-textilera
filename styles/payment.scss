@@ -1,0 +1,36 @@
+.checkout {
+  @apply text-lg;
+  button {
+    transition: 0.3s;
+    background: url('../public/img/mercado-pago.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: none;
+    width: 100%;
+    border: 3px solid #009ee3;
+    @apply h-12
+    w-[20rem]
+     py-5 text-xl first-of-type:block sm:w-[30rem];
+  }
+  button:hover {
+    background-color: #009ee3;
+  }
+}
+
+.radioGrup-payment {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.radio-payment-send {
+  border-bottom: 1px solid #cccccc;
+  .ant-radio {
+    padding-bottom: 0.4rem;
+  }
+}
+
+.radio-payment-store {
+  .ant-radio {
+    padding-bottom: 0.2rem;
+  }
+}

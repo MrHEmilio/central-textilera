@@ -1,0 +1,9 @@
+.inputCustom {
+  border: 'solid 1px white';
+  border-radius: '1rem';
+  padding: '1rem 70px 1rem 1rem';
+  background: 'transparent';
+  height: '50px';
+  color: 'white';
+  font-size: '10 rem';
+}

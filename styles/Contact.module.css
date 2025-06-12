@@ -1,0 +1,29 @@
+.ColFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.CardCointainer {
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.TextBody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #898989;
+  margin-bottom: 0;
+}
+
+.conteinerInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.conteinerInfo p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #898989;
+  margin-left: 0.5rem;
+}

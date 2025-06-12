@@ -1,0 +1,8 @@
+.select-phone {
+  .ant-input-group-addon:first-child {
+    border-radius: 0.3rem 0 0 0.3rem;
+  }
+  .ant-input-group > .ant-input:last-child {
+    border-radius: 0 0.3rem 0.3rem 0;
+  }
+}

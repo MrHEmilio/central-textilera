@@ -1,0 +1,48 @@
+.dropdownSearch {
+  position: fixed;
+  max-height: 500px;
+  box-shadow: -1px 5px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cs-container {
+  border-bottom: 1px solid #cbcbcb !important;
+  max-width: 400px;
+}
+.cs-img {
+  width: 150px;
+  aspect-ratio: 1/1;
+  flex: 1;
+  img {
+    width: fit-content;
+  }
+}
+
+.bp {
+  border: 1px solid red;
+}
+
+.cs-price {
+  text-align: end;
+  p {
+    font-weight: 600;
+  }
+}
+
+.cs-info {
+  padding: 0 15px;
+  flex: 2;
+}
+
+.cs-description {
+  width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.headerSearch {
+  // width: 433px;
+}

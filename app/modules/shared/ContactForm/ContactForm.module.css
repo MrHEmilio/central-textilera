@@ -1,0 +1,41 @@
+.TextBody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #898989;
+  margin-bottom: 0;
+}
+
+.ButtonContainer {
+  display: flex;
+}
+
+.reqired {
+  color: #fb5700;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  float: right;
+  display: block;
+}
+
+.FormActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .FormActions {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.clean-button {
+  border-color: #99cc66;
+  color: #99cc66;
+}
+
+.clean-button:hover {
+  background-color: #99cc66;
+  border-color: #99cc66;
+}
