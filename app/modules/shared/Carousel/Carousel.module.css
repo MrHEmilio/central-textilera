@@ -1,7 +1,0 @@
-.LeftArrow {
-  position: 'absolute' !important;
-  z-index: '999';
-  top: '50%';
-  left: '25px';
-  font-size: '2rem';
-}
