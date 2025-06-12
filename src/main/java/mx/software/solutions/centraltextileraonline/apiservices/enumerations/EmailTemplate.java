@@ -1,0 +1,19 @@
+package mx.software.solutions.centraltextileraonline.apiservices.enumerations;
+
+public enum
+EmailTemplate {
+
+	WELCOME_ADMIN,
+	WELCOME_CLIENT,
+	CHANGE_PASSWORD_REQUEST,
+	CHANGE_PASSWORD_INFO,
+	VERIFY_EMAIL,
+	DELETE_ADMIN,
+	DELETE_CLIENT,
+	ORDER_CREATED,
+	STATUS_UPDATE,
+	REACTIVE_CLIENT,
+	CONTACT_US_CLIENT,
+	CONTACT_US_CTX;
+
+}

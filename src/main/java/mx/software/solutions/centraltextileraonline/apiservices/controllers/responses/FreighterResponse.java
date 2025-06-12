@@ -1,0 +1,27 @@
+package mx.software.solutions.centraltextileraonline.apiservices.controllers.responses;
+
+import java.math.BigDecimal;
+import java.util.UUID;
+
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public class FreighterResponse {
+
+	@NonNull
+	private final UUID id;
+	@NonNull
+	private final String name;
+	@NonNull
+	private final String image;
+	@NonNull
+	private final BigDecimal costPerDistance;
+	@NonNull
+	private final BigDecimal costPerWeight;
+	@NonNull
+	private final Boolean active;
+
+}
